@@ -5,15 +5,14 @@
 @model List<Expense>
 
 <div class="text-center">
-    <h1 class="display-4">Expenses</h1>
+    <h1 class="display-5 fw-bold">Expenses</h1>
     <hr />
     @{
         if(Model.Count >= 1)
         {
-            <h3 class="my-4">Total Expenses: @ViewBag.TotalExpenses.ToString("C")</h3>
-            <hr />
-            <table class="table mt-auto">
-                <thead>
+            <h3 class="my-4 bg-warning bg-opacity-50 p-3 rounded-3 w-75 mx-auto">Total Expenses: @ViewBag.TotalExpenses.ToString("C")</h3>
+            <table class="table mt-auto bg-light w-75 mx-auto">
+                <thead class="bg-info bg-opacity-50">
                     <tr>
                         <th>Id</th>
                         <th>Value</th>
@@ -25,19 +24,19 @@
                     @{
                         foreach (var expense in Model)
                         {
-                            <tr class="align-content-center">
-                                <td>
+                            <tr class="align-content-center p-4">
+                                <td class="align-content-center">
                                     @expense.Id.ToString()
                                 </td>
-                                <td>
+                                <td class="align-content-center">
                                     @expense.Value.ToString("C")
                                 </td>
-                                <td>
+                                <td class="align-content-center">
                                     @expense.Description
                                 </td>
                                 <td class="mx-auto">
-                                    <a class="btn btn-primary" asp-action="CreateEdit" asp-route-id="@expense.Id">Edit</a>
-                                    <a class="btn btn-danger" asp-action="DeleteExpense" asp-route-id="@expense.Id">Delete</a>
+                                    <a class="btn btn-primary btn-sm" asp-action="CreateEdit" asp-route-id="@expense.Id">Edit</a>
+                                    <a class="btn btn-danger btn-sm" asp-action="DeleteExpense" asp-route-id="@expense.Id">Delete</a>
                                 </td>
                             </tr>
                         }
@@ -47,9 +46,11 @@
         }
         else
         {
-            <h1>No records to display</h1>
-            <p>Try creating a new Expense to track</p>
+            <div class="bg-warning bg-opacity-50 rounded-3 p-4 mt-4 w-75 mx-auto">
+                <h2>No records to display</h2>
+                <p>Try creating a new Expense to track</p>
+            </div>
         }
     }
-    <a class="btn btn-dark mt-md-4" asp-action="CreateEdit">Create new Expense</a>
+    <a class="btn btn-dark mt-md-4 btn-lg" asp-action="CreateEdit">Create new Expense</a>
 </div>

@@ -2,9 +2,13 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+<div class="text-center align-content-center my-auto ">
+    <h1 class="display-5 fw-bold">Welcome</h1>
     <hr class="mb-4" />
-    <a asp-controller="Home" asp-action="Expenses" class="btn btn-primary">Overview</a>
-    <a asp-controller="Home" asp-action="CreateEdit"class="btn btn-success">Create/Edit</a>
+    <div class="bg-warning bg-opacity-50 rounded-3 p-4 my-4 w-75 mx-auto">
+        <h2>This is my Expense Tracker program</h2>
+        <p>Here you can create, edit and delete expenses!</p>
+    </div>
+    <a asp-controller="Home" asp-action="Expenses" class="btn btn-primary w-25 btn-lg mx-3">Overview</a>
+    <a asp-controller="Home" asp-action="CreateEdit"class="btn btn-success w-25 btn-lg">Create new Expense</a>
 </div>
