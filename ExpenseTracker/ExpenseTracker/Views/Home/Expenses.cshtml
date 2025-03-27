@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Expenses";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Expenses</h1>
+    <br />
+    <table class="table mt-auto">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Value</th>
+                <th>Description</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>MyID</td>
+                <td>MyVaue</td>
+                <td>MyDescription</td>
+                <td class="mx-auto">
+                    <a class="btn btn-primary">Edit</a>
+                    <a class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <a class="btn btn-dark mt-md-5" asp-action="CreateEdit">Create new Expense</a>
+</div>
