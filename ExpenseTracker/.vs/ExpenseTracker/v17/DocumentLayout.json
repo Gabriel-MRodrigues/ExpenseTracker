@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "ExpenseTracker\\Views\\Home\\Expenses.cshtml",
               "ToolTip": "C:\\githubReposGMR\\Projects\\ExpenseTracker\\ExpenseTracker\\ExpenseTracker\\Views\\Home\\Expenses.cshtml",
               "RelativeToolTip": "ExpenseTracker\\Views\\Home\\Expenses.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-27T16:47:16.184Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "ExpenseTracker\\Controllers\\HomeController.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAYwCIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T16:15:08.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T16:15:08.343Z"
             },
             {
               "$type": "Document",
