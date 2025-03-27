@@ -21,11 +21,6 @@ namespace ExpenseTracker.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
         public IActionResult Expenses()
         {
             List<Expense> allExpenses = _dbContext.Expenses.ToList();

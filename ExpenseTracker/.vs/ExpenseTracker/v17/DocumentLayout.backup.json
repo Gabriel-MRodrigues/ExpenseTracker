@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{9B9702D1-2EC9-44ED-AD41-F3C8415AEC6D}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\views\\home\\expenses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9B9702D1-2EC9-44ED-AD41-F3C8415AEC6D}|ExpenseTracker\\ExpenseTracker.csproj|c:\\githubreposgmr\\projects\\expensetracker\\expensetracker\\expensetracker\\views\\home\\createedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B9702D1-2EC9-44ED-AD41-F3C8415AEC6D}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\views\\home\\createedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B9702D1-2EC9-44ED-AD41-F3C8415AEC6D}|ExpenseTracker\\ExpenseTracker.csproj|c:\\githubreposgmr\\projects\\expensetracker\\expensetracker\\expensetracker\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B9702D1-2EC9-44ED-AD41-F3C8415AEC6D}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9B9702D1-2EC9-44ED-AD41-F3C8415AEC6D}|ExpenseTracker\\ExpenseTracker.csproj|c:\\githubreposgmr\\projects\\expensetracker\\expensetracker\\expensetracker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9B9702D1-2EC9-44ED-AD41-F3C8415AEC6D}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B9702D1-2EC9-44ED-AD41-F3C8415AEC6D}|ExpenseTracker\\ExpenseTracker.csproj|c:\\githubreposgmr\\projects\\expensetracker\\expensetracker\\expensetracker\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9B9702D1-2EC9-44ED-AD41-F3C8415AEC6D}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B9702D1-2EC9-44ED-AD41-F3C8415AEC6D}|ExpenseTracker\\ExpenseTracker.csproj|c:\\githubreposgmr\\projects\\expensetracker\\expensetracker\\expensetracker\\views\\home\\createedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9B9702D1-2EC9-44ED-AD41-F3C8415AEC6D}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\views\\home\\createedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\githubReposGMR\\Projects\\ExpenseTracker\\ExpenseTracker\\ExpenseTracker\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ExpenseTracker\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\githubReposGMR\\Projects\\ExpenseTracker\\ExpenseTracker\\ExpenseTracker\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ExpenseTracker\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwFAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T18:47:34.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\githubReposGMR\\Projects\\ExpenseTracker\\ExpenseTracker\\ExpenseTracker\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ExpenseTracker\\Views\\Shared\\_Layout.cshtml",
@@ -38,12 +55,11 @@
               "RelativeToolTip": "ExpenseTracker\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T18:39:54.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T18:39:54.308Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\githubReposGMR\\Projects\\ExpenseTracker\\ExpenseTracker\\ExpenseTracker\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ExpenseTracker\\Views\\Home\\Index.cshtml",
@@ -51,8 +67,7 @@
               "RelativeToolTip": "ExpenseTracker\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T18:29:37.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T18:29:37.148Z"
             },
             {
               "$type": "Document",
@@ -60,22 +75,22 @@
               "Title": "Expenses.cshtml",
               "DocumentMoniker": "C:\\githubReposGMR\\Projects\\ExpenseTracker\\ExpenseTracker\\ExpenseTracker\\Views\\Home\\Expenses.cshtml",
               "RelativeDocumentMoniker": "ExpenseTracker\\Views\\Home\\Expenses.cshtml",
-              "ToolTip": "C:\\githubReposGMR\\Projects\\ExpenseTracker\\ExpenseTracker\\ExpenseTracker\\Views\\Home\\Expenses.cshtml*",
-              "RelativeToolTip": "ExpenseTracker\\Views\\Home\\Expenses.cshtml*",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADYAAAApAAAAAAAAAA==",
+              "ToolTip": "C:\\githubReposGMR\\Projects\\ExpenseTracker\\ExpenseTracker\\ExpenseTracker\\Views\\Home\\Expenses.cshtml",
+              "RelativeToolTip": "ExpenseTracker\\Views\\Home\\Expenses.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-27T18:08:46.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "CreateEdit.cshtml",
               "DocumentMoniker": "C:\\githubReposGMR\\Projects\\ExpenseTracker\\ExpenseTracker\\ExpenseTracker\\Views\\Home\\CreateEdit.cshtml",
               "RelativeDocumentMoniker": "ExpenseTracker\\Views\\Home\\CreateEdit.cshtml",
               "ToolTip": "C:\\githubReposGMR\\Projects\\ExpenseTracker\\ExpenseTracker\\ExpenseTracker\\Views\\Home\\CreateEdit.cshtml",
               "RelativeToolTip": "ExpenseTracker\\Views\\Home\\CreateEdit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-27T16:13:27.213Z",
               "EditorCaption": ""

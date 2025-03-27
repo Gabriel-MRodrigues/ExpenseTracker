@@ -16,11 +16,11 @@
         </div>
         <div class="form-group mt-4">
             <label for="value" class="mb-2">Value</label>
-            <input type="number" class="form-control" name="value" placeholder="Enter expense value" step="0.01" asp-for="Value">
+            <input type="number" class="form-control" name="value" placeholder="Enter expense value" required step="0.01" asp-for="Value">
         </div>
         <div class="form-group mt-4">
             <label for="description" class="mb-2">Description</label>
-            <input type="text" class="form-control" name="description" placeholder="Enter expense description" asp-for="Description">
+            <input type="text" class="form-control" name="description" placeholder="Enter expense description" required asp-for="Description">
         </div>
 
         <button type="submit"  class="btn btn-success mt-5">Save</button>
