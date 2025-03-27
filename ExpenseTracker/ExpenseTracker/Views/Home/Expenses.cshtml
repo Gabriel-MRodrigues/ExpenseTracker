@@ -31,8 +31,8 @@
                             @expense.Description
                         </td>
                         <td class="mx-auto">
-                            <a class="btn btn-primary">Edit</a>
-                            <a class="btn btn-danger">Delete</a>
+                            <a class="btn btn-primary" asp-action="CreateEdit" asp-route-id="@expense.Id">Edit</a>
+                            <a class="btn btn-danger" asp-action="DeleteExpense" asp-route-id="@expense.Id">Delete</a>
                         </td>
                     </tr>
                     }

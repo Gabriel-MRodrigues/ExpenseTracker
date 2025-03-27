@@ -9,6 +9,7 @@ namespace ExpenseTracker.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly ExpenseTrackerDBContext _dbContext;
 
+
         public HomeController(ILogger<HomeController> logger, ExpenseTrackerDBContext dbContext)
         {
             _logger = logger;
@@ -27,18 +28,46 @@ namespace ExpenseTracker.Controllers
 
         public IActionResult Expenses()
         {
-            var allExpenses = _dbContext.Expenses.ToList();
+            List<Expense> allExpenses = _dbContext.Expenses.ToList();
             return View(allExpenses);
         }
 
-        public IActionResult CreateEdit()
+        public IActionResult CreateEdit(int? id)
         {
+            if(id != null)
+            {
+                List<Expense> allExpenses = _dbContext.Expenses.ToList();
+                var myExpense = allExpenses.Where(expense => expense.Id == id).FirstOrDefault();
+                return View(myExpense);
+            }
+            
             return View();
+        }
+
+        public IActionResult DeleteExpense(int id)
+        {
+            List<Expense> allExpenses = _dbContext.Expenses.ToList();
+
+            var expenseItem = allExpenses.Where(expense => expense.Id == id).FirstOrDefault();
+
+            if (expenseItem != null)
+            {
+                _dbContext.Expenses.Remove(expenseItem);
+                _dbContext.SaveChanges();
+            }
+            return RedirectToAction("Expenses");
         }
 
         public IActionResult CreateEditPost(Expense expense)
         {
-            _dbContext.Expenses.Add(expense);
+            if (expense.Id != 0)
+            {
+                _dbContext.Expenses.Update(expense);
+            }
+            else
+            {
+                _dbContext.Expenses.Add(expense);
+            }
             _dbContext.SaveChanges();
 
             return RedirectToAction("Expenses");
