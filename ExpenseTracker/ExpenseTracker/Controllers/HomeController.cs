@@ -29,6 +29,11 @@ namespace ExpenseTracker.Controllers
         public IActionResult Expenses()
         {
             List<Expense> allExpenses = _dbContext.Expenses.ToList();
+
+            decimal totalExpenses = allExpenses.Sum(expense => expense.Value);
+
+            ViewBag.TotalExpenses = totalExpenses;
+
             return View(allExpenses);
         }
 
