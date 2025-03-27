@@ -7,10 +7,12 @@ namespace ExpenseTracker.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly ExpenseTrackerDBContext _dbContext;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, ExpenseTrackerDBContext dbContext)
         {
             _logger = logger;
+            _dbContext = dbContext;
         }
 
         public IActionResult Index()
@@ -25,7 +27,8 @@ namespace ExpenseTracker.Controllers
 
         public IActionResult Expenses()
         {
-            return View();
+            var allExpenses = _dbContext.Expenses.ToList();
+            return View(allExpenses);
         }
 
         public IActionResult CreateEdit()
@@ -35,6 +38,9 @@ namespace ExpenseTracker.Controllers
 
         public IActionResult CreateEditPost(Expense expense)
         {
+            _dbContext.Expenses.Add(expense);
+            _dbContext.SaveChanges();
+
             return RedirectToAction("Expenses");
         }
 

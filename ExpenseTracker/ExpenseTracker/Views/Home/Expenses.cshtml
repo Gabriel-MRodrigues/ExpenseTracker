@@ -2,6 +2,8 @@
     ViewData["Title"] = "Expenses";
 }
 
+@model List<Expense>
+
 <div class="text-center">
     <h1 class="display-4">Expenses</h1>
     <br />
@@ -15,15 +17,26 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>MyID</td>
-                <td>MyVaue</td>
-                <td>MyDescription</td>
-                <td class="mx-auto">
-                    <a class="btn btn-primary">Edit</a>
-                    <a class="btn btn-danger">Delete</a>
-                </td>
-            </tr>
+                @{
+                    foreach(var expense in Model)
+                    {
+                    <tr class="align-content-center">
+                        <td>
+                            @expense.Id.ToString()
+                        </td>
+                        <td>
+                            @expense.Value.ToString("C")
+                        </td>
+                        <td>
+                            @expense.Description
+                        </td>
+                        <td class="mx-auto">
+                            <a class="btn btn-primary">Edit</a>
+                            <a class="btn btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                    }
+                }
         </tbody>
     </table>
     <a class="btn btn-dark mt-md-5" asp-action="CreateEdit">Create new Expense</a>
