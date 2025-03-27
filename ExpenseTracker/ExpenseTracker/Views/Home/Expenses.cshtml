@@ -7,39 +7,49 @@
 <div class="text-center">
     <h1 class="display-4">Expenses</h1>
     <hr />
-    <h3 class="my-4">Total Expenses: @ViewBag.TotalExpenses.ToString("C")</h3>
-    <hr />
-    <table class="table mt-auto">
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Value</th>
-                <th>Description</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-                @{
-                    foreach(var expense in Model)
-                    {
-                    <tr class="align-content-center">
-                        <td>
-                            @expense.Id.ToString()
-                        </td>
-                        <td>
-                            @expense.Value.ToString("C")
-                        </td>
-                        <td>
-                            @expense.Description
-                        </td>
-                        <td class="mx-auto">
-                            <a class="btn btn-primary" asp-action="CreateEdit" asp-route-id="@expense.Id">Edit</a>
-                            <a class="btn btn-danger" asp-action="DeleteExpense" asp-route-id="@expense.Id">Delete</a>
-                        </td>
+    @{
+        if(Model.Count >= 1)
+        {
+            <h3 class="my-4">Total Expenses: @ViewBag.TotalExpenses.ToString("C")</h3>
+            <hr />
+            <table class="table mt-auto">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Value</th>
+                        <th>Description</th>
+                        <th>Actions</th>
                     </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (var expense in Model)
+                        {
+                            <tr class="align-content-center">
+                                <td>
+                                    @expense.Id.ToString()
+                                </td>
+                                <td>
+                                    @expense.Value.ToString("C")
+                                </td>
+                                <td>
+                                    @expense.Description
+                                </td>
+                                <td class="mx-auto">
+                                    <a class="btn btn-primary" asp-action="CreateEdit" asp-route-id="@expense.Id">Edit</a>
+                                    <a class="btn btn-danger" asp-action="DeleteExpense" asp-route-id="@expense.Id">Delete</a>
+                                </td>
+                            </tr>
+                        }
                     }
-                }
-        </tbody>
-    </table>
-    <a class="btn btn-dark mt-md-5" asp-action="CreateEdit">Create new Expense</a>
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <h1>No records to display</h1>
+            <p>Try creating a new Expense to track</p>
+        }
+    }
+    <a class="btn btn-dark mt-md-4" asp-action="CreateEdit">Create new Expense</a>
 </div>
