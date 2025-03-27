@@ -32,3 +32,17 @@ C:\githubReposGMR\Projects\ExpenseTracker\ExpenseTracker\ExpenseTracker\obj\Debu
 C:\githubReposGMR\Projects\ExpenseTracker\ExpenseTracker\ExpenseTracker\obj\Debug\net8.0\ExpenseTracker.pdb
 C:\githubReposGMR\Projects\ExpenseTracker\ExpenseTracker\ExpenseTracker\obj\Debug\net8.0\ExpenseTracker.genruntimeconfig.cache
 C:\githubReposGMR\Projects\ExpenseTracker\ExpenseTracker\ExpenseTracker\obj\Debug\net8.0\ref\ExpenseTracker.dll
+C:\githubReposGMR\Projects\ExpenseTracker\ExpenseTracker\ExpenseTracker\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\githubReposGMR\Projects\ExpenseTracker\ExpenseTracker\ExpenseTracker\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\githubReposGMR\Projects\ExpenseTracker\ExpenseTracker\ExpenseTracker\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\githubReposGMR\Projects\ExpenseTracker\ExpenseTracker\ExpenseTracker\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\githubReposGMR\Projects\ExpenseTracker\ExpenseTracker\ExpenseTracker\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\githubReposGMR\Projects\ExpenseTracker\ExpenseTracker\ExpenseTracker\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\githubReposGMR\Projects\ExpenseTracker\ExpenseTracker\ExpenseTracker\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\githubReposGMR\Projects\ExpenseTracker\ExpenseTracker\ExpenseTracker\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\githubReposGMR\Projects\ExpenseTracker\ExpenseTracker\ExpenseTracker\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\githubReposGMR\Projects\ExpenseTracker\ExpenseTracker\ExpenseTracker\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\githubReposGMR\Projects\ExpenseTracker\ExpenseTracker\ExpenseTracker\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\githubReposGMR\Projects\ExpenseTracker\ExpenseTracker\ExpenseTracker\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\githubReposGMR\Projects\ExpenseTracker\ExpenseTracker\ExpenseTracker\obj\Debug\net8.0\ExpenseTracker.csproj.AssemblyReference.cache
+C:\githubReposGMR\Projects\ExpenseTracker\ExpenseTracker\ExpenseTracker\obj\Debug\net8.0\ExpenseT.567C5DF3.Up2Date

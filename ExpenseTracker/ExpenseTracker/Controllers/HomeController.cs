@@ -33,6 +33,11 @@ namespace ExpenseTracker.Controllers
             return View();
         }
 
+        public IActionResult CreateEditPost(Expense expense)
+        {
+            return RedirectToAction("Expenses");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
